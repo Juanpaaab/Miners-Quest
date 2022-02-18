@@ -1,0 +1,2 @@
+all:
+	g++ -Isrc/Include -Lsrc/lib -o MinerQuests project/Main.cpp project/Game.cpp project/TextureManager.cpp project/Map.cpp project/Vector2D.cpp project/Collision.cpp project/GameObject.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
